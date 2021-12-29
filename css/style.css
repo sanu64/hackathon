@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    color: rgb(95, 23, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  .heading-container {
+    text-align: center;
+    background: linear-gradient(45deg, #f76363, #c112d8);
+    height: 60px;
+  }
+  h1#main {
+    padding: 0px;
+    border: 10px solid #abb616;
+    margin: 0;
+    border: 5px solid #972d7d;
+    border-radius: 10px;
+  }
+  #maincontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-top: 45px;
+    padding-right: 10px;
+    padding-bottom: 45px;
+    gap: 10px;
+    background: linear-gradient(45deg, #1ab3a6, #cee213);
+    border: 5px solid #536063;
+    border-radius: 10px;
+  }
+  
+  .container {
+    display: inline-block;
+    padding-top: 10px;
+    width: 300px;
+    padding-left: 40px;
+    padding-right: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 5px solid #13a544;
+    background: linear-gradient(
+      45deg, #eddcf0f2, var(--bs-red));
+  }
+  p {
+    text-align: left;
+    align-content: stretch;
+    padding-top: 5px;
+  }
+  
+  .info {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+  }
+  
+  p.center.title {
+    text-decoration: underline;
+    font-style: initial;
+  }
+  
+  @media screen and (max-width:750px) {
+  
+      h1#main {
+          padding: 8px;
+          border: 5px solid #166cb6;
+          margin: 0;
+          border: 5px solid #166cb6;
+      }
+  
+      #maincontainer {
+          background: linear-gradient(
+      45deg, #044fd3, #63ea41);
+      }
+  }
+  
+  @media screen and (max-width:1024px) {
+  
+      h1#main {
+          padding: 8px;
+          border: 5px solid #1f6caf;
+          margin: 0;
+          border: 5px solid #1f6caf;
+      }
+  
+      #maincontainer {
+          background:linear-gradient(
+              45deg, #1453c0, #eea9a9);
+      }
+  }
+  
